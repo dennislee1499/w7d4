@@ -14,18 +14,24 @@ span, article, footer, time, small {
   // text-align:
   // text-decoration:
   // vertical-align:
-  // box-sizing:
+  box-sizing: inherit;
   // background:
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 ol, ul {
-  // list-style:
+   list-style: none;
 }
 
 img {
-  // display:
-  // width:
-  // height:
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 input[type="password"],
@@ -45,7 +51,7 @@ button {
 
 button,
 input[type="submit"] {
-  // cursor:
+  cursor: pointer
 }
 
 /* Clearfix */
